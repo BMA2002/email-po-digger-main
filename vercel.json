@@ -1,9 +1,8 @@
 {
-  "buildCommand": "cd email-po-digger-main && bun run build",
-  "devCommand": "cd email-po-digger-main && bun run dev",
-  "installCommand": "cd email-po-digger-main && bun install",
+  "buildCommand": "cd ./email-po-digger-main && bun install && bun run build",
+  "installCommand": "echo 'Install handled in buildCommand'",
+  "outputDirectory": "./email-po-digger-main/dist",
   "framework": "vite",
-  "outputDirectory": "email-po-digger-main/dist",
   "rewrites": [
     {
       "source": "/(.*)",
