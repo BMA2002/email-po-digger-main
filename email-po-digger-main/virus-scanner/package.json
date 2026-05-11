@@ -1,0 +1,28 @@
+{
+  "name": "virus-scanner",
+  "version": "1.0.0",
+  "description": "A TypeScript package for scanning files for viruses using ClamAV",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "virus",
+    "scan",
+    "clamav",
+    "security",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "clamscan": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
