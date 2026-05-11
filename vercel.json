@@ -3,6 +3,7 @@
   "devCommand": "cd email-po-digger-main && bun run dev",
   "installCommand": "cd email-po-digger-main && bun install",
   "framework": "vite",
+  "outputDirectory": "email-po-digger-main/dist",
   "rewrites": [
     {
       "source": "/(.*)",
